@@ -2,24 +2,72 @@ body {
   background-color: rgb(233, 215, 207);
   text-align: center;
   color: rgb(83, 75, 75);
-  margin: 50px;
 }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 p {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 24px;
 }
 
-a {
-  font-family: 'Fira Sans', sans-serif;
+a:not(.logo) {
+  font-family: "Fira Sans", sans-serif;
   text-decoration: none;
   color: rgb(167, 1, 78);
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+  width: 10rem;
+  display: flex;
+  text-decoration: none;
+  padding: 1rem 0 0 1rem;
+}
+
+.logo > img {
+  height: 35px;
+}
+
+.logo-txt {
+  padding-left: 7px;
+  display: flex;
+  flex-direction: column;
+  color: #272727;
+  align-items: flex-start;
+}
+
+.logo-img {
+  width: 2rem;
+  margin-right: 3px;
+}
+
+.logo-txt h1,
+.logo-txt span {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 4px;
+}
+
+.logo-txt h1 {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  margin-top: 2px;
+  color: #272727;
+}
+
+.logo-txt span {
+  font-weight: lighter;
+  font-size: 0.85rem;
 }
