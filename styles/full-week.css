@@ -4,59 +4,66 @@ header {
 
 h1 {
   font-size: 48px;
-  color: rgb(71, 62, 62);
+  color: #f6f6f6;
   margin: 12px 0;
 }
 
 #description {
   margin: 8px;
+  color: #8b8b8b;
 }
 
-/* header p {
-  margin-bottom: 36px;
-} */
-
 a:not(.logo) {
-  padding: 12px 48px;
-  background-color: rgb(167, 1, 78);
+  padding: 10px 14px;
   color: white;
-  border: 1px solid rgb(167, 1, 78);
+  background-color: #fc4393;
   border-radius: 4px;
-  font-size: 24px;
+  font-size: 16px;
   display: inline-block;
-  margin: 12px 0;
+  margin: 12px;
 }
 
 a:not(.logo):hover {
-  background-color: rgb(180, 12, 90);
+  background-color: #ff60a5;
   text-decoration: none;
 }
 
 ol {
   list-style: none;
-  width: 500px;
+  width: 24rem;
   margin: 36px auto 0 auto;
   padding: 0;
+  text-align: start;
 }
 
 li {
   padding: 16px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-  margin: 32px;
-  background-color: rgb(223, 136, 124);
+  margin: 10px;
+  background-color: #72cde8;
   border-radius: 6px;
+  width: 21rem;
 }
 
 h2 {
-  color: rgb(78, 13, 5);
+  color: #484444;
   font-family: "Oswald", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.35rem;
 }
 
 main p {
-  margin: 12px;
+  margin: 0;
   color: rgb(71, 29, 22);
+  font-size: 1.15rem;
 }
 
 .highlight-goal {
-  background-color: rgb(226, 115, 101);
+  background-color: #adecff;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
 }
