@@ -1,6 +1,6 @@
 # HTML & CSS Practice Project – Webpage Layout
 
-This is the second project in the **HTML and CSS Course – Mini Projects** series.  
+This project is part of the **100 Days Of Code - 2024 Web Development Bootcamp** series.  
 It reinforces fundamental web development concepts by building a simple, structured webpage using semantic HTML and CSS styling techniques.
 
 ## 📌 Features
